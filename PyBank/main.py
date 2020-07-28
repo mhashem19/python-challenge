@@ -56,10 +56,10 @@ print(f"Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
 
 file_output = open("budget_analysis.txt", "w")
 
-file_output.write(" Financial Analysis")
-file_output.write(f" Total Months: {totalMonths}")
+file_output.write(" Financial Analysis"),
+file_output.write(f" Total Months: {totalMonths}"),
 file_output.write(f"Total Profite: ${int(totalProfites)}")
-file_output.write(f"Average  Change: ${int(average(averageChange))}")
-file_output.write(f"Greatest Increase in Profits: {greatest_date} (${str(greatest_increase)})")
-file_output.write(f"Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
+file_output.write(f"Average  Change: ${int(average(averageChange))}"),
+file_output.write(f"Greatest Increase in Profits: {greatest_date} (${str(greatest_increase)})"),
+file_output.write(f"Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})"),
 
