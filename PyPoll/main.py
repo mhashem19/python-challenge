@@ -35,7 +35,7 @@ for candidate in range(len(candidates)):
     index = numVotes.index(winner)
     winner = candidates[index]
 
-# Displaying results
+
 print("Election Results")
 print("--------------------------")
 print(f"Total Votes: {str(totalVotes)}")
